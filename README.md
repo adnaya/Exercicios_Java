@@ -118,6 +118,24 @@ GANHA.
 ## AULA 02.1
 ### EXERCICIO 01
 
+
+**Passagem:**
+* nomePassageiro: String
+* telefone: String
+* RG: String
+* localViagem: String
+* data: String
+* horário: String
+* numpoltrona: String
+
+**Métodos:**
+* cadastrarDadosPassageiros(): void
+* cadastrarDadosPassagem(): void
+* ...
+
+**Principal:**
+* main(args{}: String): void
+* 
 Passagem
 >-nomePassageiro : String
 >-telefone: String
