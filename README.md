@@ -65,18 +65,77 @@ GANHA.
 
 ## AULA 01.3
 ### EXERCICIO 01
+>1- Faça um algoritmo em Java que receba dois números inteiros,
+>calcule e mostre o dobro do primeiro e o triplo do segundo
+
+>Mostre os numeros e o resultado do dobro e o triplo
+
 ### EXERCICIO 02
+>2- Faça um algoritmo em Java, que receba um número inteiro.
+>Calcule e mostre este número elevado ao quadrado
+
+>Quadrado = numero * numero
+
 ### EXERCICIO 03
+>3- Uma loja de móveis paga a seu vendedor um fixo de R$1000 por mês, mais um bônus de R$50 por móvel vendido.
+>Faça um algoritmo que leia a quantidade de móveis vendidos por um vendedorcalcule o salário total do funcionário.
+
+>Mostre a quantidade que foi vendida, e mostre o salario total do funcionario
+
 ### EXERCICIO 04
+>4- Crie um algoritmo para efetuar o calculo do valor de uma parcela em atraso. Leia o valor da prestação e a taxa de juros
+>Leia o valor da parcela e a taxa de juros
+
+>valoratraso = valor + (valor * (taxa/100) * tempo)
 
 ## AULA 01.5
 ### EXERCICIO 01
+>FAÇA UM ALGORITMO PARA CALCULAR A ÁREA DE UMA CIRCUNFERÊNCIA.
+
+>AREA = (3.14* (R*R) )
+
 ### EXERCICIO 02
+>DESENVOLVA UM PROGRAMA LEIA O NOME, O VALOR E A QUANTIDADE VENDIDA, DE TRES PRODUTOS. CALCULE O VALOR TOTAL DA COMPRA. >CALCULE O VALOR DE CADA PRODUTO.MOSTRE O VALOR DE CADA PRODUTO E O VALOR TOTAL
+
+>EXEMPLO:
+>VALORPRODUTO1= VALOR1 * QUANTIDADE1
+>VALORTOTAL= VALORPRODUTO 1+VALORPRODUTO2+VALORPRODUTO3
+
 ### EXERCICIO 03
+>CALCULAR E APRESENTAR O VALOR DO VOLUME DE UM CILINDRO, UTILIZANDO A
+
+>FÓRMULA: VOLUME = 3.14159 * raio * raio * ALTURA
+
 ### EXERCICIO 04
+>UM SUPERMERCADO PRECISA DE UMA APLICAÇÃO QUE MOSTRE OS PRODUTOS A COMPRAR SEMANALMENTE.
+
+>O NOME DO PRODUTO, A QUANTIDADE MAXIMA DO PRODUTO, E A QUANTIDADE EM ESTOQUE DO PRODUTO, SÃO INFORMAÇÕES DIGITADAS PELO >USUÁRIO. ELABORE UM ALGORITMO PARA ESTA APLICAÇÃO. CALCULE A QUANTIDADE A COMPRAR
+
+>A APLICAÇÃO DEVE MOSTRAR O NOME DO PRODUTO E A QUANTIDADE A COMPRAR
+
+>QUANTIDADE_COMPRAR = QUANTIDADE MAXIMA- QUANTIDADE ESTOQUE
 
 ## AULA 02.1
 ### EXERCICIO 01
+
+Passagem
+>-nomePassageiro : String
+>- telefone: String
+>
+>- RG: String
+>- localViagem: String
+>- data: String
+>- horário: String
+>- numpoltrona: String
+>
+>+ cadastrarDadosPassageiros(): void
+>+ cadastrarDadosPassagem():void
+>+ mostrarDadosPassageiro():void
+>+ mostrarDadosPassagem():void
+
+>Principal
+>+ main(args{}: String): void
+
 ### EXERCICIO 02
 ### EXERCICIO 03
 ### EXERCICIO 04
