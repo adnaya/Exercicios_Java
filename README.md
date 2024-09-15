@@ -192,7 +192,7 @@ GANHA.
 >&plus;calcularquadrado()  
 >&plus;mostrarQuadrado():void  
 
-Principal
+>Principal
 >&plus;main(args{}: String): void  
    
 ### EXERCICIO 03
@@ -229,11 +229,89 @@ Principal
 
 ## AULA 02.4
 ### EXERCICIO 01
+>Categoria Cliente  
+>&minus;nome: string  
+>&minus;numeroConta: double  
+>&minus;saldoMedio: double  
+>-------------------------------
+>+verificarSaldo():void()    
+
+>Principal  
+>+main(args[]:String):void()
+
 ### EXERCICIO 02
+>OlimpiadaMatematica    
+>&minus;nome: string  
+>&minus;endereco: string  
+>&minus;media: double  
+>&minus;notamenor: double  
+>&minus;notamaior: double  
+>------------------------------
+>&plus;calcularMedia(): void  
+>&plus;verificarMedia():void()  
+
+>Principal  
+>+main(args[]:String):void()  
+
 ### EXERCICIO 03
+>Prova  
+>&minus;nome: string  
+>&minus;pontos: double  
+>&minus;nivel: string  
+>-----------------------------
+>+nivelProva():void()  
+>+listarResultado:void()  
+
+>Principal  
+>+main(args[]:String):void()  
+
 ### EXERCICIO 04
+>Temperatura  
+>&minus;celsius: double  
+>&minus;fahrenheit: double  
+>-----------------------------
+>+calcularTempCelsius(double F):void()  
+>+calcularTempFahrenheit(double C):void()  
+
+>Principal  
+>+main(args[]:String):void()  
+
 ### EXERCICIO 05
+>Combustivel  
+>&minus;litros: double  
+>&minus;totalGasto: double  
+>&minus;km : double  
+>&minus;valorComb: double  
+>-------------------------------------
+>+calcularLitros(double km): void()  
+>+calcularTotalGasto(double valorComb): double  
+
+>Principal  
+>+main(args[]:String):void()  
 
 ## AULA 02.4
 ### EXERCICIO 01
+>CustoPiso  
+>&minus;comprimentoComodo: double  
+>&minus;larguraComodo: double  
+>&minus;precoporArea: double  
+>&minus;custoTotalComodo : double  
+>--------------------------
+>+inserirValores()  
+>+calcularprecoArea():void  
+>+mostrarValores(): void  
+
+>Principal  
+>+main(args[]:String):void()  
+
 ### EXERCICIO 02
+>Quadrado  
+>&minus;areaQuadrado: double  
+>&minus;perimetroQuadrado : double  
+>------------------------------------------
+>+calcularArea(double ladoA): double  
+>+calcularPerimetro(double ladoA): double  
+>+mostrarValores(): void  
+
+>Principal  
+>+main(args[]:String):void()  
