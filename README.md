@@ -128,14 +128,13 @@ Passagem
 >- horário: String
 >- numpoltrona: String
 >
->&plus
-> cadastrarDadosPassageiros(): void
->&plus cadastrarDadosPassagem():void
->&plus mostrarDadosPassageiro():void
->&plus mostrarDadosPassagem():void
+>++ cadastrarDadosPassageiros(): void
+>++ cadastrarDadosPassagem():void
+>++ mostrarDadosPassageiro():void
+>++ mostrarDadosPassagem():void
 
 >Principal
->&plus main(args{}: String): void
+>++ main(args{}: String): void
 
 ### EXERCICIO 02
 ### EXERCICIO 03
