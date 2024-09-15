@@ -118,7 +118,7 @@ GANHA.
 ## AULA 02.1
 ### EXERCICIO 01
 >Passagem  
-> -nomePassageiro : String  
+>--nomePassageiro : String  
 > -telefone: String  
 > -RG: String  
 > -localViagem: String  
