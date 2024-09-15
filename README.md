@@ -120,14 +120,13 @@ GANHA.
 
 Passagem
 >-nomePassageiro : String
->- telefone: String
->
->- RG: String
->- localViagem: String
->- data: String
->- horário: String
->- numpoltrona: String
->
+>-telefone: String
+>-RG: String
+>-localViagem: String
+>-data: String
+>-horário: String
+>-numpoltrona: String
+> -----------------------------------
 >+cadastrarDadosPassageiros(): void  
 >+cadastrarDadosPassagem():void  
 >+mostrarDadosPassageiro():void  
