@@ -1,5 +1,6 @@
 # Exercicios_Java
-Lista de exercícios referente às aula de Técnica de Programação I 
+Lista de exercícios referente às aulas de Técnica de Programação I 
+Ambiente utilizado: **NetBeans IDE 8.0.1**
 
 ## AULA 01.1
 ### EXERCICIO 01
