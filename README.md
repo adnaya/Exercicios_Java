@@ -158,72 +158,74 @@ GANHA.
 >&plus;main(args[]:String):void()  
 
 ### EXERCICIO 04
->Dobro  
->&minus;numero : double  
->&minus;calculo : double
+>Dobro    
+>&minus;numero : double    
+>&minus;calculo : double  
 >---------------------------------
->&plus;calcularDobro:void()  
->Principal
->&plus;main(args[]:String):void()  
+>&plus;calcularDobro:void()
+
+>Principal  
+>&plus;main(args[]:String):void()    
 
 ## AULA 02.2
 ### EXERCICIO 01
 >O programa deve calcular a multiplicação de um valor digitado por 4
 
->Multiplicacao
->&minus;valor: int
->&minus;resultado: int
+>Multiplicacao  
+>&minus;valor: int  
+>&minus;resultado: int  
 >--------------------------------
->+multiplicacao4()
->&plus;MostrarMultiplicacao ():void
+>+multiplicacao4()  
+>&plus;MostrarMultiplicacao ():void  
 
-Principal
->&plus;main(args{}: String): void
+>Principal  
+>&plus;main(args{}: String): void  
 
 ### EXERCICIO 02
-O programa deve calcular o número digitado elevado ao quadrado
-Exemplo: 4*4= 16
+>O programa deve calcular o número digitado elevado ao quadrado  
+>Exemplo: 4*4= 16
 
->Quadrado
->&minus;numero: double
->&minus;Resultado: double
+>Quadrado  
+>&minus;numero: double  
+>&minus;Resultado: double  
 >-------------------------------
->&plus;calcularquadrado()
->&plus;mostrarQuadrado():void
+>&plus;calcularquadrado()  
+>&plus;mostrarQuadrado():void  
 
 Principal
->&plus;main(args{}: String): void
-  
+>&plus;main(args{}: String): void  
+   
 ### EXERCICIO 03
->O programa deve ser digitado o ano que a pessoa nasceu e calcular a idade
+>O programa deve ser digitado o ano que a pessoa nasceu e calcular a idade  
 
 >IdadePessoa
->&minus;ano: int
->&minus;idade: int
+>&minus;ano: int  
+>&minus;idade: int  
 >-------------------------------
->+calcularldade()
->+mostrarldade ():void
+>+calcularldade()  
+>+mostrarldade ():void  
 
-Principal
->&plus;main(args{}: String): void
+>Principal  
+>&plus;main(args{}: String): void  
   
 ### EXERCICIO 04
->O programa deve ler os dados da loja depois calcular o valor Total e mostrar valorTotal = valorCompra * qtdltenComp
->Os dados e valor total da compra
+>O programa deve ler os dados da loja depois calcular o valor Total e mostrar  
+>valorTotal = valorCompra * qtdltenComp  
+>Os dados e valor total da compra  
 
->Loja
->&minus;razaoSocial: String
->&minus;cpfCliente: String
->&minus;valorCompra: double;
->&minus;qtdltensComp: double;
->&minus;valorTotalCompra: double;
->--------------------------------------
->+inserirDadosLoja() : void
->+mostrarDadosLoja(): String
->+calcularCompraLoja():double
+>Loja  
+>&minus;razaoSocial: String  
+>&minus;cpfCliente: String  
+>&minus;valorCompra: double;  
+>&minus;qtdltensComp: double;  
+>&minus;valorTotalCompra: double;  
+>--------------------------------------  
+>+inserirDadosLoja() : void  
+>+mostrarDadosLoja(): String  
+>+calcularCompraLoja():double  
 
-Principal
->&plus;main(args(}: String): void
+>Principal  
+>&plus;main(args(}: String): void  
 
 ## AULA 02.4
 ### EXERCICIO 01
