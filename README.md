@@ -38,26 +38,26 @@ GANHA.
 
 ## AULA 01.2
 ### EXERCICIO 01
->1) Escreva um algoritmo para ler o salario mensal atual de um funcionario e o percentual de reajuste. Calcular e escrever o valor do novo
+>1-Escreva um algoritmo para ler o salario mensal atual de um funcionario e o percentual de reajuste. Calcular e escrever o valor do novo
 >salário.
 
 >novosalario=salario+(Salario * percentual)/100
 
 ### EXERCICIO 02
->2) FAÇA UM ALGORITMO ,QUE LEIA O NÚMERODE LITROS, ABASTECIDO EM UM VEÍCULO
+>2- FAÇA UM ALGORITMO ,QUE LEIA O NÚMERODE LITROS, ABASTECIDO EM UM VEÍCULO
 
 >CALCULE E MOSTRE O VALOR A SER PAGO PELO CLIENTE SABENDO-SE QUE O PREÇO DO LITRO DA GASOLINA É R$ 5,89.
 
 >VALORPAGO <- NUMERO LITROS * 5.89
 
 ### EXERCICIO 03
->3) Leia: a descrição do produto (nome), a quantidade comprada e o preço unitário.
+>3- Leia: a descrição do produto (nome), a quantidade comprada e o preço unitário.
 >Calcular e escrever o total a pagar. total = quantidadecomprada * preçounitario
 
 >Mostre o nome do produto e o total a pagar
 
 ### EXERCICIO 04
->4) A PARTIR DAS MEDIDAS DOS LADOS DE UM RETÂNGULO, CALCULE A ÁREA E O PERÍMETRO DESTE RETÂNGULO
+>4- A PARTIR DAS MEDIDAS DOS LADOS DE UM RETÂNGULO, CALCULE A ÁREA E O PERÍMETRO DESTE RETÂNGULO
 >CALCULE A ÁREA E O PERÍMETRO DESTE RETÂNGULO. LEIA A MEDIDA DO LADO A E LADO B EM CENTÍMETROS.
 
 >AREA = A.B
