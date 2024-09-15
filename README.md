@@ -135,6 +135,17 @@ GANHA.
 >+main(args{}: String): void
 
 ### EXERCICIO 02
+>Cliente
+>&minus;nome : string
+>&minus;end : string
+>&minus;rg : string
+>-----------------------------------
+>&plus;cadastrarCliente:void()
+>&plus;listarCliente:void()
+
+>Principal
+>&plus;main(args[]:String):void()
+
 ### EXERCICIO 03
 ### EXERCICIO 04
 
