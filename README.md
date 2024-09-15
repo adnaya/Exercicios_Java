@@ -160,9 +160,9 @@ GANHA.
 ### EXERCICIO 04
 >Dobro  
 >&minus;numero : double  
->&minus;calculo : double  
->&plus;calcularDobro:void()  
+>&minus;calculo : double
 >---------------------------------
+>&plus;calcularDobro:void()  
 >Principal
 >&plus;main(args[]:String):void()  
 
