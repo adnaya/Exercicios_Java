@@ -118,13 +118,13 @@ GANHA.
 ## AULA 02.1
 ### EXERCICIO 01
 >Passagem  
->--nomePassageiro : String  
-> -telefone: String  
-> -RG: String  
-> -localViagem: String  
-> -data: String  
-> -horário: String  
-> -numpoltrona: String  
+>&minus;nomePassageiro : String  
+>&minus;telefone: String  
+>&minus;RG: String  
+>&minus;localViagem: String  
+>&minus;data: String  
+>&minus;horário: String  
+> &minus;numpoltrona: String  
 > -----------------------------------
 >+cadastrarDadosPassageiros(): void  
 >+cadastrarDadosPassagem():void  
