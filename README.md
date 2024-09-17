@@ -289,7 +289,7 @@ GANHA.
 >Principal  
 >+main(args[]:String):void()  
 
-## AULA 02.4
+## AULA 04
 ### EXERCICIO 01
 >CustoPiso  
 >&minus;comprimentoComodo: double  
