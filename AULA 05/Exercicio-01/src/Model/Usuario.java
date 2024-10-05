@@ -58,7 +58,7 @@ public class Usuario {
     
     public void cadastrarUsuario(){
         String sql;
-        sql = "Insert into Usuario(nome, email, login, senha) values+"
+        sql = "Insert into Usuario(nome, email, login, senha) values"
                 + "('"+getNome()+"','"+getEmail()+"','"
                 +getLogin()+"','"+getSenha()+"')";
         con.executeSQL(sql);
