@@ -49,6 +49,18 @@ public class Produto {
         this.descricao = descricao;
     }
     
+    public void cadastrarProduto(){
+        String sql;
+        sql = "Insert into Produto(codigo, nome, descricao) values"+
+                "("+getCodigo()+",'"+getNomeProduto()+"','"+getDescricao()+"')";
+        
+        con.executeSQL(sql);
+          
+    }
+    
+    public void listarProduto(){
+    
+    }
     
     
 }

@@ -6,8 +6,11 @@
 package Control;
 
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -24,6 +27,7 @@ public class Conexao {
     private Connection conexao;// objeto que faz conexao com o banco
     public Statement statement;// objeto que abre caminho até o banco
     public ResultSet resultset;// objeto que armazena os comandos sql   
+    Conexao con = new Conexao();
     
     public boolean conecta() {  
         boolean result = true;  
@@ -34,8 +38,8 @@ public class Conexao {
             //JOptionPane.showMessageDialog(null,"Conectou com o Banco de Dados");
             
         } catch(ClassNotFoundException Driver){
-               JOptionPane.showMessageDialog(null,"Driver nao localizado: "+Driver);
-               result = false;
+              JOptionPane.showMessageDialog(null,"Driver nao localizado: "+Driver);
+              result = false;
         }catch(SQLException Fonte) {
                 JOptionPane.showMessageDialog(null,"Erro na conexão com a fonte de dados: "+Fonte);
                 result = false;
