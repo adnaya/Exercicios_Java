@@ -5,6 +5,12 @@
  */
 package View;
 
+import Model.Produto;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import javax.swing.JOptionPane;
+import javax.swing.table.DefaultTableModel;
+
 /**
  *
  * @author fatec-dsm2
@@ -17,6 +23,8 @@ public class FrmProduto extends javax.swing.JFrame {
     public FrmProduto() {
         initComponents();
     }
+    
+    Produto prod = new Produto();
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -95,6 +103,11 @@ public class FrmProduto extends javax.swing.JFrame {
         });
 
         btnLimpar.setText("Limpar");
+        btnLimpar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLimparActionPerformed(evt);
+            }
+        });
 
         btnSair.setText("Sair");
         btnSair.addActionListener(new java.awt.event.ActionListener() {
@@ -184,11 +197,42 @@ public class FrmProduto extends javax.swing.JFrame {
 
     private void btnSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSairActionPerformed
         // TODO add your handling code here:
+        System.exit(0);
     }//GEN-LAST:event_btnSairActionPerformed
 
     private void btnGravarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGravarActionPerformed
         // TODO add your handling code here:
+        prod.setCodigo(Integer.parseInt(txtCodigo.getText()));
+        prod.setNomeProduto(txtNome.getText());
+        prod.setDescricao(txtDescricao.getText());
+        prod.cadastrarProduto();
+        
+        ResultSet tabela;
+        tabela = null;
+        tabela = prod.listarProduto();
+        
+        DefaultTableModel modelo = (DefaultTableModel) tblProdutos.getModel();
+        modelo.setNumRows(0);
+        try
+        {
+            do{
+                modelo.addRow(new String[]{tabela.getString(1), tabela.getString(2), tabela.getString(3)});
+            }
+         while(tabela.next());
+        }catch(SQLException erro){
+            JOptionPane.showMessageDialog(null, "Erro ao preencher tabela"+ erro) ;    
+        }
+        
+        
     }//GEN-LAST:event_btnGravarActionPerformed
+
+    private void btnLimparActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimparActionPerformed
+        // TODO add your handling code here:
+        txtCodigo.setText("");
+        txtNome.setText("");
+        txtDescricao.setText("");
+        
+    }//GEN-LAST:event_btnLimparActionPerformed
 
     /**
      * @param args the command line arguments
