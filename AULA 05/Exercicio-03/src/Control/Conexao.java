@@ -14,16 +14,15 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author fatec-dsm2
+ * @author User
  */
 public class Conexao {
         
     final private String driver = "com.mysql.jdbc.Driver";
    
-    final private String url= "jdbc:mysql://127.0.0.1/banco_usu" ;
+    final private String url= "jdbc:mysql://127.0.0.1/banco_usu";
     // Utilizei essa url para permitir conexão do MySQl com versões do driver incompatíveis
     // final private String url= "jdbc:mysql://127.0.0.1/banco_usu?useSSL=false&allowPublicKeyRetrieval=true&characterEncoding=UTF-8";
-
     
     final private String usuario="root";
     final private String senha="";
@@ -88,5 +87,5 @@ public class Conexao {
          JOptionPane.showMessageDialog(null, "Erro ao retornar resultset"+e.getMessage());
          }
          return resultSet;
- }  
+ }
 }
