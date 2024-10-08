@@ -20,10 +20,13 @@ public class Conexao {
         
     final private String driver = "com.mysql.jdbc.Driver";
    
-    final private String url= "jdbc:mysql://127.0.0.1/banco_usu";
+    //final private String url= "jdbc:mysql://127.0.0.1/banco_usu" ;
+    // Utilizei essa url para permitir conexão do MySQl com versões do driver incompatíveis
+     final private String url= "jdbc:mysql://127.0.0.1/banco_usu?useSSL=false&allowPublicKeyRetrieval=true&characterEncoding=UTF-8";
+
     
     final private String usuario="root";
-    final private String senha="";
+    final private String senha="Amanda15##";
     private Connection conexao;// objeto que faz conexao com o banco
     public Statement statement;// objeto que abre caminho até o banco
     public ResultSet resultset;// objeto que armazena os comandos sql   

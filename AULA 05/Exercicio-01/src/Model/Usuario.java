@@ -58,7 +58,7 @@ public class Usuario {
     
     public void cadastrarUsuario(){
         String sql;
-        sql = "Insert into Usuario(nome, email, login, senha) values"
+        sql = "Insert into UsuarioUm(nome, email, login, senha) values"
                 + "('"+getNome()+"','"+getEmail()+"','"
                 +getLogin()+"','"+getSenha()+"')";
         con.executeSQL(sql);
@@ -69,7 +69,7 @@ public class Usuario {
     public ResultSet listarUsuario(){
         ResultSet tabela;
         tabela = null;
-        String sql = "select * from Usuario";
+        String sql = "select * from UsuarioUm";
         tabela = con.RetornarResultset(sql);
         return tabela;
     }

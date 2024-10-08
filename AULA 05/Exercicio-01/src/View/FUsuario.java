@@ -23,7 +23,7 @@ public class FUsuario extends javax.swing.JFrame {
     public FUsuario() {
         initComponents();
     }
-    Usuario usu = new Usuario();;
+    Usuario usu = new Usuario();
     
     
  
