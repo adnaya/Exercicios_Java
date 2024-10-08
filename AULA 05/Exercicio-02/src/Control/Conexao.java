@@ -20,14 +20,14 @@ public class Conexao {
         
     final private String driver = "com.mysql.jdbc.Driver";
    
-    final private String url= "jdbc:mysql://127.0.0.1/NOMEBANCO";
+    final private String url= "jdbc:mysql://127.0.0.1/banco_usu";
     
     final private String usuario="root";
     final private String senha="";
     private Connection conexao;// objeto que faz conexao com o banco
     public Statement statement;// objeto que abre caminho até o banco
     public ResultSet resultset;// objeto que armazena os comandos sql   
-    Conexao con = new Conexao();
+    
     
     public boolean conecta() {  
         boolean result = true;  

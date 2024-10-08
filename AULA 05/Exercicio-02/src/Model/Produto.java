@@ -5,6 +5,10 @@
  */
 package Model;
 
+import Control.Conexao;
+import java.sql.ResultSet;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author fatec-dsm2
@@ -14,6 +18,7 @@ public class Produto {
     private int codigo;
     private String nomeProduto;
     private String descricao;
+    Conexao con = new Conexao();
 
     public Produto() {
         this(0,"","");
@@ -55,11 +60,16 @@ public class Produto {
                 "("+getCodigo()+",'"+getNomeProduto()+"','"+getDescricao()+"')";
         
         con.executeSQL(sql);
+        JOptionPane.showMessageDialog(null, "Registro Salvo com Sucesso");
           
     }
     
-    public void listarProduto(){
-    
+    public ResultSet listarProduto(){
+        ResultSet tabela;
+        tabela = null;
+        String sql = "Select * from Produto";
+        tabela = con.RetornarResultset(sql);
+        return tabela;
     }
     
     
